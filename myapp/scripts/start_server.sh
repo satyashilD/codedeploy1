@@ -1,0 +1,1 @@
+ervice nginx start
