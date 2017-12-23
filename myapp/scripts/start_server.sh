@@ -1,1 +1,1 @@
-ervice nginx start
+service nginx start
