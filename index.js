@@ -6,3 +6,4 @@ const authenticator = new Authenticator({
   userPoolDomain: 'irviewtest.auth.us-east-1.amazoncognito.com' 
 });
 exports.handler = async (request) => authenticator.handle(request);
+
