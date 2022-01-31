@@ -11,6 +11,7 @@ phases:
       - echo Building the Go code...
       - "chmod +x ./build.sh"
       - "./build.sh"
+      - ls -lart
   post_build:
     commands:
       - aws s3 sync build/ s3://$S3_BUCKET
