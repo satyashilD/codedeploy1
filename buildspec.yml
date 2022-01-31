@@ -13,7 +13,7 @@ phases:
       - "./build.sh"
   post_build:
     commands:
-      - aws s3 sync build/ s3://dummybucketname
+      - aws s3 sync build/ s3://$S3_BUCKET
 # artifacts:
 #   secondary-artifacts:
 #     golang_artifacts:
